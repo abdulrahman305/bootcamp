@@ -3,3 +3,4 @@ numpy
 pymilvus
 pymilvus[model]
 streamlit
+grpcio>=1.58.3 # not directly required, pinned by Snyk to avoid a vulnerability
