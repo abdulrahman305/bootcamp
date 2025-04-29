@@ -9,7 +9,7 @@ COPY . .
 RUN npm run build
 
 # => Run container
-FROM nginx:1.23.1-alpine
+FROM nginx:1.28.0-alpine
 
 # Nginx config
 RUN rm -rf /etc/nginx/conf.d
