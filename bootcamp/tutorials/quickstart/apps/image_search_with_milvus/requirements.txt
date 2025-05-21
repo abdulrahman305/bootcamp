@@ -7,3 +7,4 @@ scikit-learn
 pymilvus>=2.4.4
 certifi
 requests
+tornado>=6.5 # not directly required, pinned by Snyk to avoid a vulnerability
