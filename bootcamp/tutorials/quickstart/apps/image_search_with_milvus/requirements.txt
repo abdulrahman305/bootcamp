@@ -7,3 +7,4 @@ scikit-learn
 pymilvus>=2.4.4
 certifi
 requests
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
