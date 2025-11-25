@@ -7,3 +7,5 @@ towhee.models==1.1.1
 fastapi
 python-multipart
 pandas
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+starlette>=0.49.1 # not directly required, pinned by Snyk to avoid a vulnerability
